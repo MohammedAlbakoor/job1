@@ -1,0 +1,240 @@
+
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #000;
+    }
+    header nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+    }
+    .hero h1 span {
+      /* color: #ff5edf; */
+      background: linear-gradient(90deg, #ff4e4f, #ff5edf);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .buttons button, .buttons a {
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .buttons button {
+      background: white;
+      color: black;
+    }
+    .buttons a {
+      border: 1px solid white;
+      color: white;
+    }
+    .exp h3 {
+        margin-top: 70px;
+    }
+    .experience-icons {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px 0;
+      cursor: pointer;
+
+    }
+    .experience-icons img {
+      width: 40px;
+    }
+    .projects {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .projects h2 {
+      color: #ff5e00;
+      margin-bottom: 20px;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project-card {
+      background: #222;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .project-card img {
+      width: 100%;
+      display: block;
+    }
+    .project-card-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .project-card2 p {
+      padding-left: 30px;
+      direction: ltr;
+      text-align: start;    
+}
+    .project-card2 h4 {
+      padding-top: 3px;
+    }
+    .project-card2 {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .arrow-box {
+        padding-top: 10px;
+        padding-right: 10px;
+        }
+    .experience {
+      padding: 40px 20px;
+      padding: 60px 10%;
+    }
+    .experience h2 {
+      text-align: center;
+      color: #3d8eff;
+      margin-bottom: 30px;
+    }
+    .job {
+      max-width: 700px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .job h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.2rem;
+    }
+    .job span {
+      color: gray;
+      font-size: 0.9rem;
+    }
+    /*
+    footer {
+      background: #000;
+      padding: 40px 20px;
+      text-align: start;
+      border-top: 1px solid #333;
+    }
+    footer p {
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    
+    footer a {
+      color: #fff;
+      display: inline-block;
+      margin: auto;
+      font-size: 18px;
+      text-decoration: none;
+      margin-left: 7%;
+    }
+    
+    .social-icons {
+  margin-left: 6%;
+  
+}
+    .social-icons a {
+  color: white;
+  margin: 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #ff5edf;
+}
+*/
+
+
+footer {
+  background: #000;
+  padding: 60px 20%;
+  border-top: 1px solid #333;
+  color: #aaa;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 600px;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+footer .email {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff5edf;
+}
